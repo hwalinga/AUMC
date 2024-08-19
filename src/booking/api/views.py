@@ -7,7 +7,7 @@ ViewSets for booking app models.
 """
 
 from booking import models
-from booking.api import serializers
+from booking.api import filters, serializers
 from rest_framework import viewsets
 
 
@@ -15,3 +15,7 @@ class BookingViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.BookingSerializer
 
     queryset = models.Booking.objects.all()
+
+    # Filtering
+    lookup_field = "pk"  # default
+    filterset_class = filters.BookingFilter
