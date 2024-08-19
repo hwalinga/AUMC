@@ -14,7 +14,9 @@ pip install -r requirements.txt
 
 # Run
 
+```
 ./src/manage.py runserver
+```
 
 # Project setup
 
@@ -60,4 +62,4 @@ I would write a test suite that would test:
 ### Models
 
  * Test if created_by, timestamp_created are correctly made on creation of model
- * Test if modified_by, and modified_timestamp are updated on an edit of an existing instance.
+ * Test if modified_by, and modified_timestamp are updated on an edit of an existing instance
