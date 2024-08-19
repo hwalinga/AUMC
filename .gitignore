@@ -1,0 +1,6 @@
+db.sqlite3
+__pycache__
+.mypy_cache
+src/media
+src/static-files/*
+.venv/
