@@ -1,5 +1,10 @@
 """
 Models for the booking system.
+
+List of models:
+
+Instrument
+Booking
 """
 
 import crum
