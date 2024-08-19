@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aumc"
+version = "0.1.0"
+description = "AUMC assessment"
+authors = ["Hielke Walinga <hielkewalinga@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "==4.2.*"
+djangorestframework = "^3.15.2"
+django-filter = "^24.3"
+django-crum = "^0.7.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
